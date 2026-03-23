@@ -1,0 +1,18 @@
+{
+  "name": "Khushi Presentation",
+  "short_name": "KhushiApp",
+  "description": "Design and export worship slides in minutes.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b1221",
+  "theme_color": "#31c48d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
