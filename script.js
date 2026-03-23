@@ -211,6 +211,9 @@ let initialOffsetX=0
 let initialOffsetY=0
 let dragging=false
 
+// Phone par touch dragging allow karne ke liye aur default scrolling rokne ke liye
+textDiv.style.touchAction="none"
+
 textDiv.addEventListener("pointerdown",(event)=>{
 event.preventDefault()
 dragging=true
